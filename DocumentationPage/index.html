@@ -1,0 +1,90 @@
+<div id="wrapper">
+  <nav id="navbar">
+    <header id="head">
+      <h1> Basic Java Documentation </h1>
+      <a href="#Introduction" class="nav-link"> Introduction </a>
+        
+      <a href="#How_To_Start" class="nav-link"> How To Start </a>
+      <a href="#Hello_World" class="nav-link"> Hello World </a>
+      <a href="#Declaring_Variables" class="nav-link"> Declaring Variables </a>
+      <a href="#Variable_Scope" class="nav-link"> Variable Scope </a>
+      
+    </header>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction"> 
+      <header class="main-headers" > 
+        <h2> Introduction </h2>
+      </header>
+        <p class="main-paragraph">
+          Java is one of the most popular languages in the world. It's relatively easy to learn and has many practical applications. </p>
+    </section>
+    <section class="main-section" id="How_To_Start"> 
+       <header class="main-headers" > 
+         <h2> How To Start </h2>
+       </header>
+       <p class="main-paragraph">
+         Anyone can learn Java. To start, you need three things: <br>
+         <ul>
+           <li> Internet Connection </li>
+           <li> A moderately fast computer </li>
+           <li> Some program to write your code in </li>
+         </ul>
+       </p>
+    
+       <p> There are many popular programs that you can use to write your code in. Personally, I prefer using either <a href="https://www.eclipse.org/downloads/"> Eclipse </a> or <a href="https://www.jetbrains.com/idea/download/#section=windows">IntelliJ. </a> You can quite easily find setup guides for these programs online.
+       </p>
+    </section>
+    <section class="main-section" id="Hello_World"> 
+       <header class="main-headers" > 
+         <h2> Hello World </h2>
+      </header>
+      <p class="main-paragraph">
+        To get started, try printing out Hello World in your console by typing in the code below, then running it!
+      </p>
+      <code> System.out.println("Hello World") </code>
+    </section>
+    <section class="main-section" id="Declaring_Variables">
+       <header class="main-headers" > 
+         <h2> Declaring Variables </h2>
+      </header>
+      <p> In Java, you need to do two things to be able to use a variable: 
+        <ul>
+          <li> Declare the variable </li>
+          <li> Instantiate the variable </li>
+        </ul>
+      </p>
+  
+      <p> Declaring a variable looks like this: </p>
+      <code>
+      int x; 
+    
+      </code>
+      <p> You can do this with any of java's primitve types. Instantiating a variable looks         like this:</p>
+      <code>
+        x=5;
+      </code>
+      <p> You can combine them into one statement as shown below: </p>
+      <code>
+        int x = 5;
+      </code>
+    </section>
+
+    <section class="main-section" id="Variable_Scope"> 
+       <header class="main-headers" >
+         <h2> Variable Scope </h2>
+       </header>
+      
+      <p> As in most programming languages, variables have scope. </p>
+      <p> When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function. For example, take a look at this code below: **This information taken from FCC example website**</p>
+      <code>
+        int x = 5;
+        
+        if (x == 5) {
+          System.out.println("Hello world");
+        }
+      </code>
+      <p> This will print out the statement since the variable x is in global scope. </p>
+    </section>
+  </main>
+</div>
