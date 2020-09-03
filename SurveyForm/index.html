@@ -1,0 +1,52 @@
+<body>
+  <h1 id="title"> SORCE Survey Form </h1>
+  <p id="description"> Thank you for taking the time to improve our trail network. </p>
+  <div id="survey">
+  <form id="survey-form">
+    <div id="name-div" class="form-group">
+    <label id="name-label" for="name">Name:</label>
+    <input id="name" type="text" placeholder="Enter your name"required> <br>
+    </div>
+    
+    <div id="email-div" class="form-group">
+
+    <label id="email-label" for="email">Email:</label>
+    <input id="email" type="email" placeholder="Enter your email" required><br>
+    </div>
+    
+    <div id="number-div" class="form-group">
+
+    <label id="number-label" for="number">Years riding:</label>
+    <input id="number" type="number" placeholder="1"min=0 max=100><br>
+    </div>
+    <label for="skill">What is your skill level?</label>
+<select name="skill" id="dropdown">
+  <option value="Green">Green</option>
+  <option value="Blue">Blue</option>
+  <option value="Black">Black</option>
+  <option value="Double Black">Double Black</option>
+</select> <br>
+
+<p>Please select your gender:</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Prefer not to say or other</label>
+    <br>
+    <p>What would you like us spend more time/effort on? </p>
+  <input type="checkbox" id="box1" name="choice1" value="Races">
+  <label for="choice1"> More races</label><br>
+   <input type="checkbox" id="box2" name="choice2" value="Trails">
+  <label for="choice2"> More trail maintenance</label><br> 
+    
+  
+<textarea name="textarea" rows="10" cols="50">Please put any additional feedback here!</textarea><br>
+    
+    
+    
+  <input id="submit" type="submit" value="Submit">
+  </form>
+  </div>
+</body>
