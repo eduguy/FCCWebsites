@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background: url("https://freehubmag.com/sites/freehub/files/articles/Kootenays_Gavelda-8.JPG") #228B22;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+
+}
+
+#submit {
+      font-size: 1.35rem;
+
+}
+
+.form-group {
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+#survey-form{
+  background:rgba(135,206,235,.72);
+    padding-bottom: 20px;
+   border-radius: 25px;
+
+
+}
+#survey {
+  padding-left: 30vw;
+  padding-right: 30vw;
+  }
+
+textarea {
+  width: 75%;
+}
